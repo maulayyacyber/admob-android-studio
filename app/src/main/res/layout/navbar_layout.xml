@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    style="@style/Navbar">
+
+    <ImageView
+        android:id="@+id/ImageNavbar"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:src="@drawable/piggy_bank"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="43dp"
+        android:layout_marginStart="43dp"
+        android:textSize="18dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:id="@+id/txt_title"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/ImageNavbar"
+        android:layout_alignStart="@+id/ImageNavbar" />
+
+</RelativeLayout>

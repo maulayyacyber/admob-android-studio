@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#263238"
+    tools:context="com.islam.mutiara.cyber17.MainActivity">
+
+    <include
+        android:id="@+id/Include1"
+        layout="@layout/navbar_layout"/>
+
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:background="#263238"
+        tools:ignore="UselessParent"
+
+        android:layout_below="@+id/Include1"
+        >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#263238" >
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adview9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                ads:adSize="BANNER"
+                ads:adUnitId="ca-app-pub-9383618420590276/9471948545" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
